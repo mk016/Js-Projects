@@ -1,6 +1,6 @@
-console.log("hitesh")
+console.log("Mahendra")
 const buttons = document.querySelectorAll('.button');
-const body = document.querySelector('body');
+const body = document.querySelector('body');// this is select all page acces
 
 buttons.forEach(function (button) {
   console.log(button);
