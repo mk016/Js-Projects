@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #000; /* Set the body background color to black */
+    color: #fff; /* Set the default text color to white */
+  }
+  
+  .container {
+    width: 1385px;
+    height: 800px;
+    background-color: #873fe6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #height,
+  #weight {
+    width: 150px;
+    height: 25px;
+    margin-top: 30px;
+  }
+  
+  #weight-guide {
+    margin-left: 75px;
+    margin-top: 25px;
+  }
+  
+  #results {
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 20px;
+    color: rgb(241, 241, 241);
+  }
+  
+  button {
+    width: 150px;
+    height: 35px;
+    margin-left: 90px;
+    margin-top: 25px;
+    background-color: #fff;
+    padding: 1px 30px;
+    border-radius: 8px;
+    color: #212121;
+    text-decoration: none;
+    border: 2px solid #212121;
+    font-size: 20px;
+  }
+  
+  h1 {
+    padding-left: 15px;
+    padding-top: 25px;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 15px;
+    background-color: #000; /* Set the navbar background color to black */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav img {
+    width: 50px; /* Adjust the width of your logo */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav li {
+    border: 2px solid #212121;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    color: #fff; /* Set the text color to white */
+  }
+  
+  nav li:hover {
+    background-color: #212121;
+    color: #fff;
+  }
+  
