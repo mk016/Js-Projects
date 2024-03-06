@@ -31,4 +31,5 @@ button:hover {
 
 #result {
   margin-top: 20px;
+  font-size: 36px; /* Increase font size for the result */
 }
