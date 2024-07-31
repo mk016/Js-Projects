@@ -1,8 +1,17 @@
-const typedTextSpan = document.querySelector('.typed-text');
-const cursor = document.querySelector('.cursor');
+const title = document.getElementById('title');
+const text = "Hello Guys, Welcome to my website";
 
-const words = ['Love', 'Jhakaas', 'mast', 'dhinchak', 'Weird'];
+const animateText = (text, element, intervalDuration) => {
+  let count = 0;
+  const interval = setInterval(() => {
+    const part = text.substring(0, ++count);
+    requestAnimationFrame(() => {
+      element.textContent = part;
+    });
+    if (count === text.length) {
+      clearInterval(interval);
+    }
+  }, intervalDuration);
+};
 
-function type() {}
-
-function erase() {}
+animateText(text, title, 100); 
